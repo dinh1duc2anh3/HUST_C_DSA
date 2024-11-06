@@ -30,6 +30,8 @@ void addLargeIntegers(const char *num1,const char *num2, char *result) {
         resultArray[i] = sum % 10;
         carry = sum / 10;
     }
+    //change 2 ?
+    
 
     // Convert resultArray to a string
     int resultLength = 0;
